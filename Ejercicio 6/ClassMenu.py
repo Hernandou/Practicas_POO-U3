@@ -30,7 +30,7 @@ class Menu:
         ans = str(input('''>> Ingrese aparato que desea crear
                         
                         A) Lavarropas       B) Televisor    C) Heladera
-                       👉🏻 : '''))
+                        : '''))
 
         marc = input('  -Ingrese Marca: ')
         modelo = input(' -Ingrese Modelo: ')
