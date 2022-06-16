@@ -24,12 +24,14 @@ if __name__ == '__main__':
             2) Funcion B
             3) Funcion C
             4) Funcion D
-            5) Salir     
+            5) Funcion E
+            6) Funcion F
+            7) Salir
               ''')
         
         ans = str(input('>> -Ingrese Opcion: '))
         
-        if(ans != '5'):
+        if(ans != '7'):
             mnu.GestOpc(ans,lista)
-        elif(ans == '5'):
+        elif(ans == '7'):
             band = True
